@@ -1,0 +1,40 @@
+{
+    "c++11": {
+        "key": {
+            "typedef-name": [ {
+                    "identifier": "required"
+                }
+            ],
+            "namespace-name": [ 
+                {"original-namespace-name": "required"}, 
+                {"namespace-alias": "required"}
+            ],
+            "original-namespace-name": [
+                "identifier"
+            ],
+            "namespace-alias": [
+                "identifier"
+            ],
+            "class-name": [
+                "identifier",
+                "template-id"
+            ],
+            "enum-name": [
+            "identifier"
+            ],
+            "template-name": [
+                "identifier"
+            ]
+        },
+        "lexical": {
+            "hex-quad": [
+                ["hexadecimal-digit", "hexadecimal-digit", "hexadecimal-digit", "hexadecimal-digit"]
+            ]
+        },
+        "basic": {
+            "translation-unit": [
+                {"declaration-seq": "optional"}
+            ]
+        }
+    }
+}

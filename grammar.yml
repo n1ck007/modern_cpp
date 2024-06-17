@@ -1,0 +1,31 @@
+# : Dictionary 
+# {or: list, abbreviated: form}
+# - List  
+# ['or', 'list', 'abbreviated', 'form']
+
+
+c++11:
+  - kewords
+  - lexical_conventions
+  - basic_concepts
+  - expressions
+  - statements
+  - declarations
+  - classes
+  - derived_classes:
+    - base-clause:
+    - base-specifier-list:
+    - base-specifier:
+      - [{"attribute-specifier": {optional: true, terminal: false}}, {"base-type-specifier": {optional: false, terminal: false}}],
+      - [{"attribute-specifier": {optional: true, terminal: false}}, {"virtual": {optional: false, terminal: true}}, {"access-specifier": {optional: true, terminal: false}}, {"base-type-specifier": {optional: false, terminal: false}}]
+      - [{"attribute-specifier": {optional: true, terminal: false}}, {"access-specifier": {optional: true, terminal: true}}, {"virtual": {optional: false, terminal: false}}, {"base-type-specifier": {optional: false, terminal: false}}]
+    - class-or-decltype:
+    - base-type-specifier:
+    - access-specifier:
+  - special_member_functions
+  - overloading
+  - templates
+  - exception_handling
+  - preprocessing_derectives
+
+
